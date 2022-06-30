@@ -11,8 +11,8 @@ class Solution{
         while(end<N){
             sum = sum + Arr.get(end);
              if(end-start+1==K){
-                maxSum = Math.max(maxSum,sum);   // checking that 
-                sum = sum - Arr.get(start);     // we are using Arr.get because int ArrayList we used to return the element at a given index from specified array
+                maxSum = Math.max(maxSum,sum);   // checking which is greater between maxSum and sum .
+                sum = sum - Arr.get(start);     // we are using Arr.get because int ArrayList we used to return the element at a given index from specified array .
                 
                 start++;
                 end++;
